@@ -1,0 +1,142 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Resume of Joshua B. Malone 
+% 
+% This document uses the Deedy CV/Resume XeLaTeX Template
+% and must be compiled with XeLaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume}
+\usepackage[none]{hyphenat}
+\begin{document}
+
+%----------------------------------------------------------------------
+%       TITLE SECTION
+%----------------------------------------------------------------------
+
+\namesection{Joshua Malone}{
+josh.malone@gmail.com | https://github.com/48kRAM | 434-234-4716
+}
+
+%------------------
+%     LEFT COLUMN
+%------------------
+
+\begin{minipage}[t]{0.27\textwidth}
+\section{Languages}
+Bash \textbullet{} PHP \textbullet{} Perl \textbullet{} HTML/CSS \\
+Python \textbullet{} JavaScript \textbullet{} C \\
+SQL \textbullet{} MarkDown
+
+\sectionspace
+\section{Software}
+BIND \textbullet{} Samba \textbullet{} dovecot \\
+ISC-DHCPd \textbullet{} Apache HTTPd \\
+Sendmail \textbullet{} LDAP \textbullet{} git \\
+GitLab \textbullet{}  MatterMost \\
+Openfire \textbullet{} GNU Mailman \\
+Nagios \textbullet{} BackupPC \textbullet{} P5 \\
+Nextcloud \textbullet{} Munki \textbullet{} OpenSSL \\
+Procmail \textbullet{} MailScanner
+
+\sectionspace
+
+\section{Education}
+\subsection{Virginia Polytechnic}
+\subsection{Institute}
+\location{Blacksburg, VA}
+\descript{Computer Engineering}
+
+\sectionspace
+
+\section{Coursework}
+Computer Architecture \\
+TCP/IP Network\\
+\hspace{3pt} Application Development \\
+Microprocessors \\
+Digital Design
+
+\sectionspace
+
+\section{Interests}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\begin{tightitemize}
+	\item Vintage computers (1975-1996)
+	\item Vintage gaming
+	\item Former amateur radio operator
+	\item Data and network security
+\end{tightitemize}
+
+\end{minipage} % End of left column
+\hfill
+%
+%------------------------------------------------------
+%       RIGHT COLUMN
+%------------------------------------------------------
+\begin{minipage}[t]{0.69\textwidth} % Right column
+\vspace{3pt}
+\summary{Experienced Unix systems administrator (especially Linux and MacOS) with an emphasis on automation, repeatability and security.} 
+
+\section{Experience}
+	
+\subsection{National Radio Astronomy Observatory}
+\descript{Linux and Mac Systems Administrator}
+\location{Charlottesville, VA | 2005 - Present}
+
+\begin{tightitemize}
+	\item Administered Red Hat Enterprise servers, ver. 5, 6, and 7
+	\item Critical infrastructure servers, incl. web, email, DNS, DHCP, backup, monitoring, and file services
+	\item Observatory lead for Mac platform from 2009 to 2015
+	\item Lead observatory-wide deployment of NRAO's first central management system for Mac OSX (Munki)
+	\item Lead observatory-wide deployment of Nagios for automated service monitoring and trending
+	\item Lead observatory-wide deployment of Gitlab SCM, including user-facing	documentation and training
+	\item Utilized perl and net-LDAP to integrate Oracle J.D. Edwards with Active Directory, NIS, and Mailman to automate AD group membership, rfc-2307 AD unix attributes, and mailing list membership
+	\item Managed multiple MySQL instances, including replication to off-site disaster recovery systems
+	\item Lead observatory-wide rollout of BackupPC software to provide  server backups and reduce commercial backup software license costs for the observatory
+	\item Developed numerous in-house web applications, including an online phone directory, account consistency checker (for helpdesk staff), and helpdesk ticketing system
+	\item Administered NetApp filers for NFS, CIFS, and iSCSI running Data OnTap 7 and Clustered Data OnTap
+	\item Designed and implemented upgrades to audiovisual presentation and conference systems in meeting facilities
+	\item Wrote extensive documentation for both end-users and IT staff
+	\item Maintained detailed logs of production server changes
+	\item Three-time recipient of observatory "Star Award" for significant achievements
+\end{tightitemize}
+
+\vspace{6pt}
+\subsection{Applied Data Systems (now Eurotech)}
+\descript{Linux Engineer}
+\vspace{2pt}
+\location{Columbia, MD (Charlottesville, VA office) | Mar. 2004 - Sept. 2005}
+
+\begin{tightitemize}
+	\item Packaged and maintained Debian GNU/Linux distributions for ARM-based single-board embedded systems
+	\item Wrote and maintained documentation for internal and customer use under ISO-9001 document control
+	\item Ported or wrote drivers for CAN controllers, video decoders, and video accelerators to run on embedded systems
+	\item Assisted with introduction of the Debian GNU/Linux operating system as a	standard customer option for ADS embedded systems
+	\item Wrote board imaging tools for use by manufacturing technicians
+\end{tightitemize}
+
+\end{minipage}
+\newpage
+
+\section{Technical Presentations}
+\begin{tightitemize}
+\vspace{8pt}
+\item \textit{Git for Collabirative Development} - Multiple internal presentations to observatory staff
+\item Automated System Monitoring - Fall 2015 LSP Conference, University of Virginia \\
+\item Advanced systems monitoring with Nagios, PNP and Nconf - 2015 Mac Admins Conference at Penn State \\
+\item What the heck is wrong with my server?!? - 2014 Mac Admins Conference at Penn State \\
+\item Managing OSX Systems with Munki - Fall 2012 LSP Conference, University of
+Virginia \\
+\end{tightitemize}
+
+\sectionspace
+\section{Open Source Code \& Contributions}
+\vspace{8pt}
+\begin{tightitemize}
+	\item "JSTimer" - A graphical session timer for scientific talks with automatic Q\&A rollover.
+	\item Contributions to "Webmin" project to enhance DHCP module
+	
+\end{tightitemize}
+
+\end{document}
