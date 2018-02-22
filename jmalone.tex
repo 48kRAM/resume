@@ -4,6 +4,8 @@
 % This document uses the Deedy CV/Resume XeLaTeX Template
 % and must be compiled with XeLaTeX
 %
+% This work is released into the public domain
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[letterpaper]{deedy-resume}
@@ -26,7 +28,7 @@ josh.malone@gmail.com | https://github.com/48kRAM | 434-234-4716
 \section{Languages}
 Bash \textbullet{} PHP \textbullet{} Perl \textbullet{} HTML/CSS \\
 Python \textbullet{} JavaScript \textbullet{} C \\
-SQL \textbullet{} MarkDown
+SQL \textbullet{} MarkDown \textbullet{} BASIC
 
 \sectionspace
 \section{Software}
@@ -40,7 +42,7 @@ Nagios \textbullet{} BackupPC \textbullet{} P5 \\
 Nextcloud \textbullet{} Munki \textbullet{} OpenSSL \\
 Procmail \textbullet{} MailScanner \\
 pxelinux \textbullet{} Atlassian JIRA \\
-Bitbucket server \textbullet{} Apache tomcat
+Bitbucket server \textbullet{} PXELINUX
 
 \sectionspace
 
@@ -84,7 +86,7 @@ Digital Design
 %------------------------------------------------------
 \begin{minipage}[t]{0.69\textwidth} % Right column
 \vspace{3pt}
-\summary{Experienced Unix systems administrator (especially Linux and MacOS) with an emphasis on automation, repeatability and security.} 
+\summary{Experienced Linux and MacOS systems administrator with an emphasis on automation, repeatability and security.} 
 
 \section{Experience}
 	
@@ -94,7 +96,8 @@ Digital Design
 
 \begin{tightitemize}
 	\item Administered Red Hat Enterprise servers, ver. 5, 6, and 7
-	\item Critical infrastructure servers, incl. web, email, DNS, DHCP, backup, monitoring, and file services
+	\item Built and maintained critical infrastructure servers, incl. web, collaboration, email, DNS, DHCP, backup, monitoring, and file services
+	\item Replaced legacy flat-file mail routing system with database-driven system including web-based and command-line interfaces. Integrated with numerous existing scripts.
 	\item Observatory lead for Mac platform from 2009 to 2015
 	\item Lead observatory-wide deployment of NRAO's first central management system for Mac OSX (Munki)
 	\item Lead observatory-wide deployment of Nagios for automated service monitoring and trending
@@ -102,7 +105,7 @@ Digital Design
 	\item Utilized perl and net-LDAP to integrate Oracle J.D. Edwards with Active Directory, NIS, and Mailman to automate AD group membership, rfc-2307 AD unix attributes, and mailing list membership
 	\item Managed multiple MySQL instances, including replication to off-site disaster recovery systems
 	\item Lead observatory-wide rollout of BackupPC software to provide  server backups and reduce commercial backup software license costs for the observatory
-	\item Developed numerous in-house web applications, including an online phone directory, account consistency checker (for helpdesk staff), and helpdesk ticketing system
+	\item Developed numerous in-house web and CLI applications, including a software/services inventory, online phone directory (CLI and web), mail routing editor, account consistency checker (for helpdesk staff), URL shortener, and helpdesk ticketing system
 	\item Administered NetApp filers for NFS, CIFS, and iSCSI running Data OnTap 7 and Clustered Data OnTap
 	\item Designed and implemented upgrades to audiovisual presentation and conference systems in meeting facilities
 	\item Wrote extensive documentation for both end-users and IT staff
@@ -114,23 +117,40 @@ Digital Design
 \subsection{Applied Data Systems (now Eurotech)}
 \descript{Linux Engineer}
 \vspace{2pt}
-\location{Columbia, MD (Charlottesville, VA office) | Mar. 2004 - Sept. 2005}
+\location{Columbia, MD (Charlottesville, VA office) | 2004 - 2005}
 
 \begin{tightitemize}
 	\item Packaged and maintained Debian GNU/Linux distributions for ARM-based single-board embedded systems
 	\item Wrote and maintained documentation for internal and customer use under ISO-9001 document control
+\end{tightitemize}
+\end{minipage}
+\newpage
+\begin{tightitemize}
 	\item Ported or wrote drivers for CAN controllers, video decoders, and video accelerators to run on embedded systems
 	\item Assisted with introduction of the Debian GNU/Linux operating system as a	standard customer option for ADS embedded systems
 	\item Wrote board imaging tools for use by manufacturing technicians
 \end{tightitemize}
 
-\end{minipage}
-\newpage
+\vspace{6pt}
+\subsection{Tovaris}
+\descript{Systems Administrator}
+\vspace{2pt}
+\location{Charlottesville, VA | 2001 - 2003}
+
+\begin{tightitemize}
+	\item Maintained FreeBSD servers and workstations for software developers
+	\item Maintained Windows desktops / laptops for business and sales teams
+	\item Configured and maintained subnetted LAN including DMZ and a flexible customer test lab
+	\item Developed scripted netboot-based imaging workflow for manufacturing appliances for sales
+	\item Maintained all network services including email, dns, dhcp, web, firewall, server and workstation backups
+\end{tightitemize}
+\vspace{20pt}
+
 
 \section{Technical Presentations}
 \begin{tightitemize}
 \vspace{8pt}
-\item \textit{Git for Collabirative Development} - Multiple internal presentations to observatory staff
+\item \textit{Git for Collaborative Development} - Multiple internal presentations to observatory staff
 \item Automated System Monitoring - Fall 2015 LSP Conference, University of Virginia \\
 \item Advanced systems monitoring with Nagios, PNP and Nconf - 2015 Mac Admins Conference at Penn State \\
 \item What the heck is wrong with my server?!? - 2014 Mac Admins Conference at Penn State \\
