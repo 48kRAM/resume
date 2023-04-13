@@ -44,7 +44,8 @@ GNU Mailman \textbullet{} \textbf{Ansible} \\
 \textbf{Nagios} \textbullet{} BackupPC \textbullet{} P5 \\
 Nextcloud \textbullet{} OpenSSL \\
 Procmail \textbullet{} MailScanner \\
-pxelinux \textbullet{} Atlassian JIRA \\
+pxelinux \textbullet{} Atlassian \textbullet{} TNSR \\
+Slurm \textbullet{}
 MySQL server \textbullet{} \textbf{iPXE}
 
 %\sectionspace
@@ -94,23 +95,38 @@ Digital Design
 \hrulefill
 }
 
-\summary{Experienced Linux systems administrator with an emphasis on automation, repeatability and security.} 
+\summary{Experienced Linux systems administrator with an emphasis on automation, repeatability, security, and serial commas.} 
 
 \section{Experience}
-	
+
+\subsection{Lancium Compute}
+\descript{DevOps Engineer}
+\location{Charlottesville, VA | 2022 - Present}
+
+\begin{tightemize}
+	\item Responsible for administration and maintenance of over 600 CPU and GPU compute nodes in multiple HTC clusters
+	\item Wrote and maintained automation code for node setup using Ansible
+	\item Remote and on-site troubleshooting of hardware, software, and network issues
+	\item Deployed network router for 30Gbit ISP line using Netgate TNSR with Dell PowerEdge servers and Mellanox ConnectX-5 100Gbit Ethernet adpaters
+	\item Responded to outage incidents in coordination with on-site technicians
+	\item Designed and implemented out-of-band management network with alternate control path for remote troubleshooting
+\end{tightemize}
+\vspace{6pt}
+
 \subsection{National Radio Astronomy Observatory}
 \descript{Linux and Mac Systems Administrator}
-\location{Charlottesville, VA | 2005 - Present}
+\location{Charlottesville, VA | 2005 - 2022}
 
 \begin{tightemize}
 	\item Administered Red Hat Enterprise servers, ver. 5 through 8
 	\item Built and maintained critical infrastructure servers, incl. web, collaboration, email, DNS, DHCP, backup, monitoring, and file services
 	\item Maintained Enterprise applications incl. GitLab, Atlassian, Mattermost, Nextcloud
-	\item Replaced legacy flat-file mail routing system with database-driven system including web-based and command-line interfaces. Integrated with numerous existing scripts.
+	\item Replaced legacy flat-file mail routing system with database-driven system including web and command-line interfaces. Integrated with numerous existing scripts.
 	\item Observatory lead for Mac platform from 2009 to 2015
-	\item Lead observatory-wide deployment of NRAO's first central management system for Mac OSX (Munki)
-	\item Lead observatory-wide deployment of Nagios for automated service monitoring and trending
-	\item Lead observatory-wide deployment of Gitlab SCM, including user-facing	documentation and training
+	\item Lead deployment of NRAO's first central device management system for Mac OSX (Munki)
+	\item Lead deployment of Nagios for automated service monitoring and trending
+	\item Lead deployment of Gitlab SCM, including user-facing documentation and training
+	\item Implemented GLPI software to replace legacy in-house IT asset inventory system
 	\item Managed corporate instant messaging systems; Lead transition from XMPP-based messaging to on-prem Mattermost
 	\item Utilized perl and net-LDAP to integrate Oracle J.D. Edwards with Active Directory, NIS, and Mailman to automate AD group membership, rfc-2307 AD unix attributes, and mailing list membership
 	\item Managed multiple MySQL instances, including replication to off-site disaster recovery systems
